@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: npes87184
+google_analytics: npes87184
 
 defaults:
   -
@@ -22,7 +22,7 @@ author:
   github: npes87184
   twitter: npes87184
   pinterest: npes87184
-  linkedin: npes87184
+  linkedin: npes87184@gmail.com
   bio: Write the code. Change the world!
   email_md5: 726351295ec82e145928582f595aa3aa
 
