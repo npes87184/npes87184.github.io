@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World!
-categories: [helloworld]
+categories: [雜記]
 tags: [helloworld]
 description: 緣起...
 comments: true
