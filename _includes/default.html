@@ -74,13 +74,14 @@
 				<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">標籤</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
+		
 	</nav>
-
 	<!-- nav-menu-dropdown -->
 	<div class="btn-group hidden-xs" id="nav-menu">
 		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
 			<i class="fa fa-bars"></i>
 		</button>
+		<br>
 		<ul class="dropdown-menu" role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>首頁</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>文章類別</a></li>
@@ -88,15 +89,19 @@
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i>頁面頂端</a></li>
 		</ul>
+		<br>
+		<br>
+		<div id="toc" style="display: block; width: 150px"></div>
 	</div>
+
 
 	<div class="col-sm-3 sidebar hidden-xs">
 		{% include sidebar.html %}
+
 	</div>
 
 	<div class="col-sm-9 col-sm-offset-3">
 		{{ content }}
-
 		<footer>
 			<hr/>
 			<p>
@@ -108,5 +113,12 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/toc.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $('#toc').toc();
+	});
+	</script>
 </body>
 </html>

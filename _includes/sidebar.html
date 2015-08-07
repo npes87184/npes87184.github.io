@@ -6,6 +6,13 @@
 	<h3 class="title">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
     </h3>
+   	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/toc.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $('#toc').toc();
+	});
+	</script>
 </header>
 
 {% if site.author.bio %}
@@ -60,5 +67,6 @@
 		{% endif %}
 
 	</ul>
+
 </div>
 <!-- sidebar.html end -->

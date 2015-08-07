@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: npes87184
+      title: npes87184's blog
 
 description: Stylish Jekyll Theme
 author:
