@@ -10,6 +10,8 @@ comments: true
 published: true
 ---
 
+_因為本篇文章有許多 Code 建議使用電腦觀看_
+
 ## 1.前言：　　
 　　　　這個 library 其實一開始並不是我寫的，是 <a href="http://www.pupuliao.info/jnoveldownloader-小說下載器/">JNovelDownloader</a> 的作者 **pupuliao** 所寫的，之前偶然看到才把它拿過來稍微改寫，並弄成 Android APP 版本，這篇文章主要會講解繁簡轉換的思路，也就是這份 Library 背後的想法，透過了解背後的意義，之後如果想要寫成其他語言版本（如 c/c++）相信應該不會太難。
 
