@@ -51,13 +51,24 @@
 		</li>
 	</ul>
 
-	<div id="search">
-	    <form role="search" method="get" action="{{site.baseurl}}/search.html">
-	        <input id="searchString" name="searchString"
-	               placeholder="Be a Better Developer." type="text">
-	        <input id="searchButton" name="googleSearchName" type="submit" value="Search">
-	    </form>
-	</div>
+	<div class="grid" id="searchBar">
+	     <div>
+	         <div id="search">
+	             <form role="search" method="get" action="{{site.baseurl}}/search.html">
+	                 <input id="searchString" name="searchString"
+	                        placeholder="Be a Better Developer." type="text">
+	                 <input id="searchButton" name="googleSearchName" type="submit" value="搜尋">
+	             </form>
+	         </div>
+
+	         <div id="archives">
+	             直接查看 <a title="The complete archive of {{ site.name }}'s Blog by category"
+	                    href="{{ site.BASE_PATH}}/{{ site.categories_path }}">類別</a>
+	             或 <a title="The complete archive of {{ site.name }}'s Blog by month"
+	                   href="{{ site.BASE_PATH}}/{{ site.tags_path }}">標籤</a>
+	         </div>
+	     </div>
+	 </div>
 
 </div>
 
