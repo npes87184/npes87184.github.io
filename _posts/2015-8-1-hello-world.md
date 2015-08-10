@@ -3,6 +3,7 @@ layout: post
 title: Hello World!
 categories: [雜記]
 tags: [helloworld]
+image_description: false
 description: 緣起
 comments: true
 ---
