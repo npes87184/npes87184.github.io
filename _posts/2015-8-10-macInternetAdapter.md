@@ -4,7 +4,7 @@ title: "Macbook thunderbolt 網路轉接頭開箱"
 categories: [雜記]
 tags: [Macbook, thunderbolt]
 image_description: true
-description: <img src="{{ site.baseurl }}/image/2015-8-10/0.jpg">
+description: <img src="/image/2015-8-10/0.jpg">
 comments: true
 published: true
 ---
