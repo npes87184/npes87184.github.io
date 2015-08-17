@@ -55,5 +55,5 @@ published: true
 　　　[1] Secure Spread Spectrum Watermarking for Multimedia
 Ingemar J. Cox, Senior Member, IEEE, Joe Kilian, F. Thomson Leighton, and Talal Shamoon, Member, IEEE
 
-　　　[2]A Maximum Entropy-Based Chaotic Time-Variant Fragile Watermarking Scheme for Image Tampering Detection
+　　　[2] A Maximum Entropy-Based Chaotic Time-Variant Fragile Watermarking Scheme for Image Tampering Detection
 Young-Long Chen, Her-Terng Yau, and Guo-Jheng Yang
