@@ -24,6 +24,7 @@ published: true
 
 　　　所以在學術界上就有一些人在研究如何在不破壞圖的情況之下藏一個浮水印進去，且又夠 Robust，其中最成功的一支就是使用 Spread Spectrum 技術的浮水印，如下圖就是運用 Spread Spectrum 藏浮水印的結果。
 　　　<img src="{{ site.baseurl }}/image/2015-8-16/1.png">
+
 　　　下面圖表的意思是，用其他 999 個隨機產生的假 Watermarking 去比對相似度都很低，只有那個真正個 Watermarking 能夠得到很高的相似度。
 
 　　　可以看出在不怎麼影響圖的外觀的情況之下就只有一個很明顯的 Watermarking 在數據上。
