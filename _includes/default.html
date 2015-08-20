@@ -64,6 +64,11 @@
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
+
+			<a type="button" class="navbar-toggle nav-link" href="{{ site.BASE_PATH }}/feed.xml">
+				<i class="fa fa-rss"></i>
+			</a>
+
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
 				<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
 				{{ site.title }}
