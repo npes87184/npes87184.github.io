@@ -23,6 +23,9 @@ author:
   bio: Write the code. Change the world!
   email_md5: 38889316ad04896e9d2958947ef896cf
 
+gems:
+  - jekyll-sitemap
+
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
