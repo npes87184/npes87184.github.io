@@ -29,11 +29,11 @@ published: true
 
 　　<img src="{{ site.baseurl }}/image/2015-8-23/0.png">
 
-　　　如上圖所示， Process A 先把想要給 Process B 的資料，放進 Shared Memory 中，之後 Process B 再去拿出來使用。一切看似很完美，卻還是藏著一個問題，也就是 Process B 如何知道資料是最新的？如何可以確保 Process B 不會拿到改到一半的資料？更複雜一點來說，要是兩個 Process 同時對同一個變數進行更改會怎樣？如下圖，兩個 Process 同時要對 count 加一，會如何？
+　　　如上圖所示， Process A 先把想要給 Process B 的資料，放進 Shared Memory 中，之後 Process B 再去拿出來使用。一切看似很完美，卻還是藏著一些問題，也就是 Process B 如何知道資料是最新的？如何可以確保 Process B 不會拿到改到一半的資料？更複雜一點來說，要是兩個 Process 同時對同一個變數進行更改會怎樣？如下圖，兩個 Process 同時要對 count 加一，會如何？
 
 　　　<img src="{{ site.baseurl }}/image/2015-8-23/1.png">
 
-　　　這時候就會出現一個奇妙的狀況，程式最後執行的結果會跟程式之間運行的順序有關，以下列這個例子來看，我們假定 count 一開始為 4 ，並根據下面的順序執行。
+　　　這時候就會出現一個奇妙的狀況，程式最後執行的結果會跟程式之間運行的順序有關，以下面這個例子來看，我們假定 count 一開始為 4 ，並根據下面的順序執行。
 
 　　　<img src="{{ site.baseurl }}/image/2015-8-23/2.png">
 
@@ -43,7 +43,7 @@ published: true
 
 ##3. Race Condition：
 
-　　　講了這麼多，現在終於要進入今天的主角 Race Condition 了，仔細觀察剛剛的例子會發現，會出現 Race Condition 現象的原因主要是因為放在 Share Memory 中的共用變數被**同時存取**了。換句話說，要是我們可以限制共用變數一次只能被一個 Process 所使用，Race Condition 就解決了。
+　　　講了這麼多，現在終於要進入今天的主角 Race Condition 了，仔細觀察剛剛的例子會發現，會出現 Race Condition 現象主要是因為放在 Share Memory 中的共用變數被**同時存取**了。換句話說，要是我們可以限制共用變數一次只能被一個 Process 所使用，Race Condition 就迎刃而解了。
 
 　　　那要如何讓共用變數一次只被一個 Process 所使用呢？主要有兩種方法：
 
@@ -60,7 +60,7 @@ published: true
 　　　　　　所謂的臨界區間就是就是會對共用變數存取的程式碼區域。而設計臨界區間，主要就是設計進去的條件跟出來的條件解除，使其可以保證在離開臨界區間之前，即使換其他 Process 執行也不能進去存取同樣變數的臨界區間去存取共用變數。
 
 
-　　　　　　大體上臨界區間會長怎樣，首先會有一個區域來判斷 Process 可不可以進去，要離開的時候再把進入條件更改，讓其他想進來的人可以進來。
+　　　　　　大體上臨界區間會長這樣，首先會有一個區域來判斷 Process 可不可以進去，要離開的時候再把進入條件更改，讓其他想進來的人可以進來。
 {% highlight Java %}
 //管制 Process 可否進入臨界區間
 entrySection();
