@@ -36,9 +36,9 @@ published: true
 
 　　　問完這些之後，主考官就笑笑地說，我們來寫一些 code 吧，對自己的指標有信心嗎？ＸＤ
 
-　　　題目是刪除 sorted link list 中相同的 node。
+　　　題目是刪除 sorted linked list 中相同的 node。
 
-　　　比方說原始的 link list 是 1->2->2->3，要弄成 1->2->3。
+　　　比方說原始的 linked list 是 1->2->2->3，要弄成 1->2->3。
 
 {% highlight C++ %}
 ListNode* deleteDuplicates(ListNode* head) {
@@ -61,7 +61,7 @@ ListNode* deleteDuplicates(ListNode* head) {
 }
 {% endhighlight %}
 
-　　　一開始寫出來的 code 大體上是這樣，不過印象中更醜，然後還有用到 prev，但主要想法是一樣的，就是分兩個 case 先把頭相同的都刪光，在刪裡面的。主考官看了一下之後說 ok，但是他希望我改成只有一種 case 就解決。
+　　　一開始寫出來的 code 大體上是這樣，不過印象中更醜，還有用到 prev 之類的，但主要想法是一樣的，就是分兩個 case 先把頭相同的都刪光，在刪裡面的。主考官看了一下之後說 ok，但是他希望我改成只有一種 case 就解決。
 
 　　　本來想直接使用 Pseudo Node 就可以一種 case，不過他希望不要用 Pseudo Node。ＸＤ
 
