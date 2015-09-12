@@ -2,7 +2,7 @@
 layout: post
 title: "繁簡轉換實現 by Java"
 categories: 
-  - [Android, Java]
+  - [演算法]
 tags: 
   - [繁簡轉換, Android, Java, HashMap]
 image_description: false
