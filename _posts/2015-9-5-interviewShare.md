@@ -223,7 +223,7 @@ bool search(int[] A, int start, int end, int val) {
       } else {
          return true;
       }
-      if(start<end) {
+      if(start>end) {
          return false;
       }
    }
