@@ -287,6 +287,8 @@ string get(string key) {
 
 　　最後有問一下面試官覺得我哪裡表現最差，他表示 code 的可讀性太差。ＸＤ
 
+　　聽說群暉很喜歡考 Linked List 的排序相關，這邊也附上：[Linked List Sort]({% post_url 2015-9-12-linkedListSort %})
+
 ##聯發科：
 
 　　聯發科參加的是他們的校園訪談，校園訪談有一些好處是：
