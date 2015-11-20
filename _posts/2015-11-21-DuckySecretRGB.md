@@ -2,7 +2,7 @@
 layout: post
 title: "Ducky Secret RGB 滑鼠開箱"
 categories: [雜記]
-tags: [Macbook, thunderbolt]
+tags: [Ducky, 滑鼠]
 image_description: true
 description: <img src="/image/2015-11-21/0.jpg">
 comments: true
