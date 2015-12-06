@@ -4,7 +4,7 @@ title: "資工系在學什麼？"
 categories: [雜記]
 tags: [資工系, CSIE, 資工所]
 image_description: false
-description: 概括的說明資工系從零到有的過程，讓高中生可以在選系的時候參考
+description: 概括的說明資工系從零到有的過程，讓高中生可以在選系的時候參考。
 comments: true
 published: true
 ---
