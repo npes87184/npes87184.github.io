@@ -25,7 +25,7 @@ published: true
 
 ##Method：
 
-1.	[Training] Separate the images into  (pixels  pixels) patches (eg., =12 is suggested in the cvpr08 paper). These patches (or blocks) are overlapping, so that many patches are used for training. More training samples usually result in better testing results. However, if the training patches are too many, the training time will be long. This is a tradeoff. Suggested overlapping pixels is from 2 to 6.
+1.	[Training] Separate the images into  (pixels  pixels) patches (eg., =12 is suggested in the cvpr08 paper). These patches (or blocks) are overlapping, so that many patches are used for training. More training samples usually result in better testing results. However, if the training patches are too many, the training time will be long. This is a tradeoff. Suggested pixel steps is from 2 to 6.
 
 2.	[Training] Pre-processing: Gaussian Mask + Laplacian filter for each block (suggested in [cvpr08]), or none
 
@@ -35,15 +35,15 @@ published: true
 
 	B.	K-SVD
 
-4.	 [Testing] use a  window to scan the image. At each scanned position, represent the window based the i-th class dictionary via sparse representation (i=1, 2) by OMP. Compute the reconstruction error for each class. Label this window as the c-th class with c = argmin e.
+4.	 [Testing] use a d*d window to scan the image. At each scanned position, represent the window based the i-th class dictionary via sparse representation (i=1, 2) by OMP. Compute the reconstruction error e_i for each class. Label this window as the c-th class with c = argmin_i e_i.
 
-5.	Post-processing: choose either one
+5.	[Testing] Post-processing: choose either one
 
 	A.	Majority vote
 
 	B.	Smooth
 
-6.	Compare the results obtained by KSVD and MOD.
+6.	[Testing] Compare the results obtained by KSVD and MOD.
 
 
 　　<font color="#FF0000" size="4">[reminder] Do not forget to do the same pre-processing as that in training for each window in testing.</font>
@@ -63,5 +63,13 @@ published: true
 　　<font size="3">You are allowed to use the codes available on the Internet. Eg., KSVD code.</font>
 
 　　<font size="4"><a href="http://www.cs.technion.ac.il/~elad/Various/KSVD_Matlab_ToolBox.zip">Example Library</a></font>
+
+##Contact：
+
+　　<font size="3">If you have any problem, feel free to contact us.</font>
+
+　　<font size="3">Teacher's E-mail:<a href="mailto:song@iis.sinica.edu.tw">song@iis.sinica.edu.tw</a></font>
+
+　　<font size="3">TA's E-mail:<a href="mailto:r03922091@ntu.edu.tw">r03922091@ntu.edu.tw</a></font>
 
 <font color="#FF0000" size="5">Good luck!</font>
