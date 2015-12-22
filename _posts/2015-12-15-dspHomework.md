@@ -27,7 +27,7 @@ published: true
 
 1.	[Training] Separate the images into  (pixels  pixels) patches (eg., =12 is suggested in the cvpr08 paper). These patches (or blocks) are overlapping, so that many patches are used for training. More training samples usually result in better testing results. However, if the training patches are too many, the training time will be long. This is a tradeoff. Suggested pixel steps is from 2 to 6.
 
-2.	[Training] Pre-processing: Gaussian Mask + Laplacian filter for each block (suggested in [cvpr08]), or none
+2.	[Training] Pre-processing: Gaussian Mask + [Laplacian filter]({% post_url 2015-10-7-ImageBlur %}) for each block (suggested in [cvpr08]), or none
 
 3.	[Training] Train a dictionary for each class by using the following two methods:
 
