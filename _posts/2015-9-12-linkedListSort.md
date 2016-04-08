@@ -8,7 +8,7 @@ description: 講解常見的排序方法 (Bubble sort, Selection sort, Insertion
 comments: true
 published: true
 ---
-##Bubble Sort：
+## Bubble Sort：
 
 　　泡泡排序其實非常簡單，把每一個數字想像成一個泡泡，數字的大小就是泡泡的重量，越重的會沉在越下面，那如果每次我們都把最重的沉下去，做了一定次數之後就排序完成了，如下圖。
 
@@ -144,7 +144,7 @@ ListNode* bubbleSortList(ListNode* head) {
 }
 {% endhighlight %}
 
-##Insertion Sort：
+## Insertion Sort：
 
 　　Insertion Sort 的想法很簡單，想像在玩撲克牌的時候，除了最可憐的發牌者，其他人會在牌發到一半的時候就先拿起來整理手牌，這時候我們整理的方式就是把新發過來的牌按照大小插入手中。插入排序的想法也是這樣，假設我們已經有一串已經排序完成的，這時候新進來的就按照他應該的位子把它插進去即可。
 
@@ -200,7 +200,7 @@ ListNode* insertionSortList(ListNode* head) {
 }
 {% endhighlight %}
 
-##Selection Sort：
+## Selection Sort：
 
 　　選擇排序的想法也很簡單，每次選擇最大或最小的元素排到正確的位子，不同於泡泡排序，他不會有一個往下沉或往上浮的情況，而是就是找最小或最大的拉過去，所以可以得到最小交換次數，對於要根據一個很大的表格的某一項排序是很好用的，原因是因為表格很大，造成交換的時間需要很久，選擇排序可以盡量減少交換次數。
 
@@ -256,7 +256,7 @@ ListNode* selectionSortList(ListNode* head) {
 }
 {% endhighlight %}
 
-##Merge Sort：
+## Merge Sort：
 
 　　Merge Sort 的想法比較複雜一點，先看圖在講解應該會比較有感覺。
 
@@ -357,6 +357,6 @@ ListNode* mergeSortList(ListNode* head) {
 }
 {% endhighlight %}
 
-##結語：
+## 結語：
 
 　　有任何問題，或是 code 有更好寫法，歡迎提出。也感謝 <a href="https://leetcode.com/problems/insertion-sort-list/">leetcode</a> 提供環境方便測試 code 的正確性。：Ｄ

@@ -8,11 +8,11 @@ description: 探討 Watermarking 及 Data Hiding 的特性，並討論其相同�
 comments: true
 published: true
 ---
-##1. 前言：
+## 1. 前言：
 
 　　　之前一直在困惑 Watermarking 跟 Data Hiding 的差別，兩個不都是放一些看不到東西進去數位資料（如影像檔、聲音檔）中嗎？為什麼還要特地分成兩個不同的名詞？某個機會之下跟學長討論並加上自己思考過後，得到一些結論。這篇會寫下當時討論的結果，並列出表格直接明確指出相同及不同的地方，方便以後有同樣困惑的人參考，也讓自己以後可以快速查詢。
 
-##2. Watermarking：
+## 2. Watermarking：
 
 　　　浮水印的使用主要是用來保護智慧財產權，最常見的例子大概就是在補習班的講義上，通常在講義的背景可以看到浮水印。下圖是一個有浮水印的圖。
 
@@ -33,7 +33,7 @@ published: true
 
 　　　在之後我會找時間再撰文詳細解釋這個方法如何實作及背後的數學，現在先讓我們看看 Data Hiding。
 
-##3. Data Hiding：
+## 3. Data Hiding：
 
 　　　最早期的 Data Hiding 大概就是檸檬汁了，大家一定都有聽過或玩過隱形墨水吧？電影中總是會有人使用隱形墨水來傳遞隱藏的資料，收到方在使用蠟燭小心的烤就能得到真實資料。另一個例子就是古代還會有人把頭髮剃光，在上面刻字之後等頭髮長出來再去送密這樣的情況。我們可以說這些就是早期的 Data Hiding。
 
@@ -48,10 +48,10 @@ published: true
 
 　　　同樣的，在之後我會找時間再撰文詳細解釋這個方法如何實作及背後的數學，現在先讓我們看看比較跟結論。
 
-##4. 比較：
+## 4. 比較：
 　　　<img src="{{ site.baseurl }}/image/2015-8-16/4.png">
 
-##5. Reference：
+## 5. Reference：
 
 　　　[1] Secure Spread Spectrum Watermarking for Multimedia
 Ingemar J. Cox, Senior Member, IEEE, Joe Kilian, F. Thomson Leighton, and Talal Shamoon, Member, IEEE

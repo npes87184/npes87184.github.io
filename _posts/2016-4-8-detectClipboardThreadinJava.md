@@ -9,11 +9,11 @@ comments: true
 published: true
 ---
 
-##Motivation：
+## Motivation：
 
 　　主要是最近 Ptt 的 CFantasy <a href="https://www.ptt.cc/bbs/CFantasy/M.1459536539.A.733.html">有篇文章</a>提到了幾個抓小說軟體的優缺點，其中有我有貢獻過代碼的軟體，被點評沒有偵測剪貼簿不夠給力，所以當天就研究了一下。
 
-##Task：
+## Task：
 
 　　主要需要做的事情就是：
 
@@ -23,7 +23,7 @@ published: true
 
 　　3. 偵測到之後要如何處理
 
-##Method：
+## Method：
 
 　　把上述的事情轉成程式碼其實不會很困難，這邊直接貼上程式碼並附上註解。
 

@@ -9,11 +9,11 @@ comments: true
 published: true
 ---
 
-##Motivation：
+## Motivation：
 
 　　<font size="3">To have hands-on experience on dictionary learning. Compare the results of MOD and K-SVD.</font>
 
-##Task：
+## Task：
 
 　　<font size="3">* texture segmentation.</font>
 
@@ -23,7 +23,7 @@ published: true
 
 　　<font size="3">* Test image: 8 for each class.</font>
 
-##Method：
+## Method：
 
 1.	[Training] Separate the images into  (pixels  pixels) patches (eg., =12 is suggested in the cvpr08 paper). These patches (or blocks) are overlapping, so that many patches are used for training. More training samples usually result in better testing results. However, if the training patches are too many, the training time will be long. This is a tradeoff. Suggested pixel steps is from 2 to 6.
 
@@ -48,23 +48,23 @@ published: true
 
 　　<font color="#FF0000" size="4">[reminder] Do not forget to do the same pre-processing as that in training for each window in testing.</font>
 
-##Data：
+## Data：
 
 　　<font size="3">The data will include two sets. You need to train two dictionaries for each set. You will get eight test images. Each test image is built by tiling the training data. We will preserve several test images for blind testing on our side.</font>
 
 　　<font size="4"><a href="http://www.cmlab.csie.ntu.edu.tw/~npes87184/dsp_homework.zip">Download Data</a></font>
 
-##Grading：
+## Grading：
 
 　　<font size="3">The performance might not be good. As long as you have done the work according the above basic settings, you will get <u>7.5</u> from 10 (scores). You can get a higher score either by implementing more suggestions from cvpr08 (where the dictionaries are trained more discriminately), employing more dictionary learning methods for comparison, refining the methods or do anything by yourself to boost the performance. Share your findings in the report.</font>
 
-##Codes：
+## Codes：
 
 　　<font size="3">You are allowed to use the codes available on the Internet. Eg., KSVD code.</font>
 
 　　<font size="4"><a href="http://www.cs.technion.ac.il/~elad/Various/KSVD_Matlab_ToolBox.zip">Example Library</a></font>
 
-##Contact：
+## Contact：
 
 　　<font size="3">If you have any problem, feel free to contact us.</font>
 

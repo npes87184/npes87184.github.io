@@ -8,7 +8,7 @@ description: 探討 Share Memory ，並討論其衍生的 Race Condition 問題�
 comments: true
 published: true
 ---
-##1. 由來：
+## 1. 由來：
 
 　　　從簡單的 Process 定義開始，所謂的 Process 其實可以看作正在執行中的程式碼。在作業系統中，同時執行的 Process 通常不只一個，Process 可以大致分成兩類。
 
@@ -23,7 +23,7 @@ published: true
 　　　如何讓兩個 Process 之間溝通並傳資料常見的方法有，Share Memory(分享記憶體)及 Message Passing（訊息傳遞），本篇主要探討的是 Share Memory 的部分，並討論其衍生的 Race Condition 問題以及常見的三種解法討論。
 
 
-##2. Share Memory：
+## 2. Share Memory：
 
 　　　所謂的 Share Memory 代表的是如果兩個 Process 需要溝通，則他們跟老大哥作業系統要一塊共同的記憶體空間，並透過這塊共同擁有的記憶體空間溝通。
 
@@ -41,7 +41,7 @@ published: true
 
 　　　這種因為執行順序不同而導致結果不同的現象稱作 **Race Condition**，也是我們今天要討論的問題。
 
-##3. Race Condition：
+## 3. Race Condition：
 
 　　　講了這麼多，現在終於要進入今天的主角 Race Condition 了，仔細觀察剛剛的例子會發現，會出現 Race Condition 現象主要是因為放在 Share Memory 中的共用變數被**同時存取**了。換句話說，要是我們可以限制共用變數一次只能被一個 Process 所使用，Race Condition 就迎刃而解了。
 
@@ -75,7 +75,7 @@ exitSection();
 
 　　<img src="{{ site.baseurl }}/image/2015-8-23/4.png">
 
-##4. Critical Section：
+## 4. Critical Section：
 
 　　　再來就是 Critical Section Design 所需要的要求了，要達成一次只有一個程式進去，且不會造成大家都進不去需要滿足三個條件，分別是 **Mutual Exclusion**、**Progress** 以及 **Bounded Waiting**。
 
@@ -101,7 +101,7 @@ exitSection();
 
 　　　臨界區間設計有很多種方式，如透過演算法設計的方式，或是硬體保證不會被中斷的進入判斷，還有高階資料結構的 Semaphore、Monitor 等，本篇主要集中在兩個 Processes 的軟體演算法設計的三種著名方法。雖然其中有兩種是錯誤的，且最後一種在現今的架構之下也未必能保證正確，但可由這三個例子明白 Critical Section Design 所需要的三個要求的重要性及其精神。
 
-##5. 軟體演算法：
+## 5. 軟體演算法：
 
 　　　以下三個演算法皆是討論只有兩個 Processes Ｐi，Ｐj 的情況之下要如何設計，其中展現出來的 Pseudo Code 都是代表Ｐi 的。
 
@@ -225,7 +225,7 @@ flag[i] = false;
 
 　　　最後，其實臨界區間設計還有很多方法，比方硬體保證不會被中斷的驗證指令（Test and Set 或 Swap），或是可以減輕程式員負擔的高階資料結構 Semaphore 或 Monitor 等，這些之後有機會會在撰文說明及討論。
 
-##6. Reference：
+## 6. Reference：
 
 　　　1. 許多圖跟例子來自<a href="http://sjchen.im.nuu.edu.tw/OS_Final.html">杰哥作業系統數位教室</a>
 
