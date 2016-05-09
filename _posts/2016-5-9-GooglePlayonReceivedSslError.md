@@ -13,7 +13,7 @@ published: true
 
 　　最近為了替自己的 APP 提供 Paypal 捐贈功能，在 APP 中使用了 webview。但是上架沒多久就被 Google Play 警告這樣實作不安全等，如下圖。
 
-　　<img src="{{ site.baseurl }}/image/2016-5-9/1.PNG">
+　　<img src="{{ site.baseurl }}/image/2016-5-9/1.png">
 
 ## Task：
 
