@@ -45,17 +45,17 @@ published: true
 
 　　<img src="{{ site.baseurl }}/image/2016-7-8/2.png">
 
-　　到了這一步基本上一個簡單的 shell 機器人就完成了，可以透過以下指令開啟機器人：
+　　到了這一步，基本上一個簡單的 shell 機器人就完成了，可以透過以下指令開啟機器人：
 
 {% highlight shell %}
 % bin/hubot
 {% endhighlight %}
 
-　　開啟之後是不是會發現不管打什麼 Hubot 都不理人？其實這是因為裡面還沒有任何 Script 的緣故，下一個部分要來講解簡單的 Script 怎樣撰寫，並讓他看起來有點智慧！
+　　開啟之後是不是會發現不管打什麼 Hubot 都不理人？其實這是因為裡面還沒有任何 Script 的緣故，下一個部分要來講解簡單的 Script 要怎樣撰寫，來讓他看起來有點智慧！
 
 ## 撰寫 Script：
 
-　　Hubot 的 Script 語言基本上是要用 coffeeScript，不過我個人是都用 javaScript 來寫，Hubot 的 Script 需要 export 一個函數，如下面這樣：
+　　Hubot 的 Script 基本上是要用 coffeeScript 來撰寫，不過我個人是都用 javaScript 來寫，Hubot 的 Script 需要 export 一個函數，如下面這樣：
 
 {% highlight JavaScript %}
 module.exports = function(robot) {
@@ -97,7 +97,7 @@ module.exports = function(robot) {
 
 ## Line adapter：
 
-　　可是這樣架完也只能夠在 shell 中自嗨。很沒有聊天機器人的感覺。為了解決這個問題，這裡也提出如何套上 Line 的 adapter 並放到 heroku 等 server 上完成 Line 的機器人，其中 Line 的 adapter 我是參考此開源軟體 <a href="https://github.com/notok/hubot-line-trial">Line adapter</a>。
+　　可是這樣架完也只能夠在 shell 中自嗨。很沒有聊天機器人的感覺。為了解決這個問題，這裡也說明如何套上 Line 的 adapter 並放到 heroku 等 server 上完成 Line 的聊天機器人，其中 Line 的 adapter 我是參考此開源軟體 <a href="https://github.com/notok/hubot-line-trial">Line adapter</a>。
 
 　　首先透過 npm 安裝 Line 的 adapter：
 
