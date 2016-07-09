@@ -107,7 +107,7 @@ module.exports = function(robot) {
 
 　　再來去 Line 官方申請一個開發者帳號：
 
-　　<a href="https://business.line.me/ja/products/4/introduction">https://business.line.me/ja/products/4/introduction</a>
+　　<a href="https://developers.line.me/">https://developers.line.me/</a>
 
 　　開發者帳號中最重要的是：
 
@@ -123,9 +123,15 @@ module.exports = function(robot) {
 % bin/hubot -a line-trial
 {% endhighlight %}
 
-　　如果是要放到 heroku 上跑，同樣需要設定 heroku 上的環境變數，並且更改 Procfile 為上述指令，最後再提交上去即可。
+　　如果是要放到 heroku 上跑，同樣需要設定 heroku 上的環境變數，並且更改 Procfile 為上述指令，再提交上去即可。
 
-　　最後結果如下圖：
+　　最後再到 Line 開發者帳號那邊設定 Callback URL 為：
+
+{% highlight shell %}
+https://<hubot hostname>:443/hubot/incoming
+{% endhighlight %}
+
+　　這樣就完成設定了，最後結果如下圖：
 
 　　<img src="{{ site.baseurl }}/image/2016-7-8/4.png">
 
