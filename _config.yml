@@ -7,6 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: npes87184
 google_analytics: npes87184
+url: http://npes87184.github.io
 
 defaults:
   -
