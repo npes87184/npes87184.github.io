@@ -90,7 +90,9 @@
           <i class="fa fa-google-plus fa-lg"></i>
           Google+
         </a>
+        <div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
       </section>
+
 
       <section class="col-sm-6 author">
         <img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}" class="img-rounded author-image" />
@@ -98,28 +100,6 @@
         <p class="author-bio">{{site.author.bio}}</p>
       </section>
     </div>
-
-	<div>
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-		   <input type="hidden" name="cmd" value="_s-xclick">
-		   <input type="hidden" name="charset" value="utf-8">
-		   <input type="hidden" name="hosted_button_id" value="DMGMQJTH7LUQC">
-		   <section class="share col-sm-6">
-		   <table>
-		      <tr><td><input type="hidden" name="on0" value="種類" class="section-title">如果覺得文章有幫助，贊助是對我最好的支持！</td></tr><tr><td><select name="os0">
-		      <option value="請我喝杯飲料">請我喝杯飲料 NT$50 TWD</option>
-		      <option value="請我吃頓飯">請我吃頓飯 NT$120 TWD</option>
-		   </select> </td></tr>
-		   </table>
-		   </section>
-		   <section class="share col-sm-6">
-
-		   <input type="hidden" name="currency_code" value="TWD">
-		   <input type="image" src="https://www.paypalobjects.com/zh_TW/TW/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal － 更安全、更簡單的線上付款方式！">
-		   <img alt="" border="0" src="https://www.paypalobjects.com/zh_TW/i/scr/pixel.gif" width="1" height="1">
-		   </section>
-		</form>
-	</div>
 
     <div class="clearfix"></div>
 
