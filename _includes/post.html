@@ -90,7 +90,9 @@
           <i class="fa fa-google-plus fa-lg"></i>
           Google+
         </a>
-        <div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        {% if site.fb_app_id %}
+          <div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+        {% endif %}
       </section>
 
 

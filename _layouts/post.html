@@ -3,6 +3,6 @@ layout: default
 ---
 {% include post.html %}
 
-{% if site.disqus and page.comments %}
-    {% include disqus.html %}
+{% if site.fb_app_id and page.comments %}
+    {% include fb_comment.html %}
 {% endif %}

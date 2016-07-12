@@ -11,7 +11,11 @@
 		{% endif %}
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
-  <meta property="fb:app_id" content="159495411122881" />
+
+  {% if site.fb_app_id %}
+    <meta property="fb:app_id" content="{{site.fb_add_id}}" />
+  {% endif %}
+
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">

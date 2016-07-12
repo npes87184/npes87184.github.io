@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: npes87184
+fb_app_id: 159495411122881
 google_analytics: npes87184
 url: http://npes87184.github.io
 
