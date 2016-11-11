@@ -4,7 +4,7 @@ title: "fitbit charger 2 開箱"
 categories: [雜記]
 tags: [fitbit, 智慧手環]
 image_description: false
-description: 透過開源的 Hubot，簡單架設 Line 聊天機器人。
+description: 智慧手環 fitbit charger 2 開箱
 comments: true
 published: true
 ---
