@@ -4,7 +4,7 @@ title: "DSP Program Homework SPEC"
 categories: []
 tags: []
 image_description: false
-description: To have hands-on experience on dictionary learning. Compare the results of MOD and K-SVD. 
+description: To have hands-on experience on dictionary learning. Compare the results of MOD and K-SVD.
 comments: true
 published: true
 ---
