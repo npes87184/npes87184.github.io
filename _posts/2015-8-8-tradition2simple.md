@@ -150,7 +150,7 @@ private static String translate(String text,
 <br>
 　　　　最後，本次教學的 Code 都可以在 GitHub 中找到，想要使用或有興趣都可以去看看。
 
-　　　　<a class="btn btn-default" href="https://github.com/npes87184/S2TDroid/blob/master/app/src/main/java/com/npes87184/s2tdroid/Analysis.java">Grab code now!</a>
+　　　　<a class="btn btn-default" href="https://github.com/npes87184/S2TDroid/blob/pro/app/src/main/java/com/npes87184/s2tdroid/donate/model/Analysis.java">Grab code now!</a>
 
 ## 5.Reference：
 
