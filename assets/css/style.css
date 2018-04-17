@@ -95,6 +95,10 @@ article{
 	margin-bottom: 20px;
 }
 
+.article_body p {
+	padding: 5px 0;
+}
+
 .post-date {
 	text-transform: uppercase;
 	font-size: 14px;
