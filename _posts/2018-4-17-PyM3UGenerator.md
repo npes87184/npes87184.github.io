@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Walkman 播放清單"
-categories: [雜記]
+categories: [研究雜記]
 tags: [python, m3u, m3u8, walkman]
 image_description: false
 description: 運用 Python + PyQt5 簡單實作一個程式來幫忙產生 Walkman 能用的播放清單。
