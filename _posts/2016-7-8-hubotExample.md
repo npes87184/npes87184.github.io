@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Hubot 聊天機器人簡單架設教學"
-categories: [研究雜記]
-tags: [Hubot, bot, chat, 聊天機器人, Line 聊天機器人]
-image_description: false
 description: 透過開源的 Hubot，簡單架設 Line 聊天機器人。
+tags: [Hubot, bot, chat, 聊天機器人, Line 聊天機器人]
 comments: true
-published: true
 ---
 
 ## 概論：
@@ -15,7 +12,7 @@ published: true
 
 　　大體上來說，Hubot 的架構如下圖：
 
-　　<img src="{{ site.baseurl }}/image/2016-7-8/1.png">
+　　<img src="{{ site.baseurl }}/img/posts/2016-7-8/1.png">
 
 　　最左半邊是通訊軟體，透過一個 adapter 來跟通訊軟體提供的 API 進行串接，而 Hubot 會把串接完之後的事情諸如取得訊息，傳送訊息等都完成，又常見的通訊軟體的 adapter 幾乎都有人寫了，開發者只需專注於 Script 即可。
 
@@ -43,7 +40,7 @@ published: true
 
 　　下完 yo hubot 之後，產生器會開始詢問一些問題，如機器人的名字，要使用什麼 adapter 等，如下圖：
 
-　　<img src="{{ site.baseurl }}/image/2016-7-8/2.png">
+　　<img src="{{ site.baseurl }}/img/posts/2016-7-8/2.png">
 
 　　到了這一步，基本上一個簡單的 shell 機器人就完成了，可以透過以下指令開啟機器人：
 
@@ -91,7 +88,7 @@ module.exports = function(robot) {
 
 　　寫完此 Script 之後把它存在剛剛建出來的目錄的 Scripts 下，如 scripts/hello.js，重新啟動 Hubot 就能跟他打招呼囉！
 
-　　<img src="{{ site.baseurl }}/image/2016-7-8/3.png">
+　　<img src="{{ site.baseurl }}/img/posts/2016-7-8/3.png">
 
 　　其中這些 Script 還能支援常見的 npm，這樣搭配下來能做的事情非常多，如搭配 cheerio 的話，就能讓 Hubot 在聽到如新聞，電影這類詞的時候，幫我們去某些網頁尋找關鍵內容，回傳到聊天室中，相當有可擴充性，這部分就要發揮讀者的想像力跟實力，來創造厲害的 Script 了！
 
@@ -133,7 +130,7 @@ https://<hubot hostname>:443/hubot/incoming
 
 　　這樣就完成設定了，最後結果如下圖：
 
-　　<img src="{{ site.baseurl }}/image/2016-7-8/4.png">
+　　<img src="{{ site.baseurl }}/img/posts/2016-7-8/4.png">
 
 ## Reference：
 

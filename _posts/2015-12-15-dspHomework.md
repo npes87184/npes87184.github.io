@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "DSP Program Homework SPEC"
-categories: []
-tags: []
-image_description: false
 description: To have hands-on experience on dictionary learning. Compare the results of MOD and K-SVD.
+tags: []
 comments: true
-published: true
 ---
 
 ## Motivation：

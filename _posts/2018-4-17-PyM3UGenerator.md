@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Walkman 播放清單"
-categories: [研究雜記]
-tags: [python, m3u, m3u8, walkman]
-image_description: false
 description: 運用 Python + PyQt5 簡單實作一個程式來幫忙產生 Walkman 能用的播放清單。
+tags: [python, m3u, m3u8, walkman]
 comments: true
-published: true
 ---
 最近失心瘋買了 Sony Walkman zx300 來聽音樂，音質確實是沒話說，但是管理起播放清單不是那麼方便。尤其當音樂中包含純音樂跟含人聲的歌曲的時候更不好整理。有時候就是想聽只有純音樂，而有時候又只想聽 High 歌。最初想到的方法是透過資料夾把歌曲都如下分類好。
 

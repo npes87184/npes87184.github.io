@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Image Blur"
-categories: [演算法]
-tags: [Matlab, Image, blur, 模糊]
-image_description: false
 description: 從兩個方向講解如何簡單地替一張影像模糊化並附上基本的 Matlab 實作。
+tags: [Matlab, Image, blur, 模糊]
 comments: true
-published: true
 ---
 ## 前言：
 
@@ -26,19 +23,19 @@ published: true
 
 　　以１-Ｄ的例子來說，我們讓每一個值都跟周圍三個平均來當作結果，整體看起來就不會差距這麼懸殊了，如下例子：
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/0.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/0.png">
 
 　　其中７＝１／３＊（２＋１５＋４）
 
 　　用同樣的方式，我們可以把整個陣列都算出來，結果如下：
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/1.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/1.png">
 
 　　整體而言，起伏變小了，我們可以把兩張圖弄出來給大家看看，如下：
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/2.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/2.png">
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/3.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/3.png">
 
 　　上圖為原先陣列畫出來的圖，而下圖則是結果，明顯看起來平滑多了，比較不會快速起伏，當然想要更加 blur 可能可以使用不同的權重，如考慮周圍五個，然後每一個佔的比例是１／５，或是有時候不想要那麼模糊，可能可以１／６, ２／３, １／６，端看使用的情況是怎樣。
 
@@ -48,11 +45,11 @@ published: true
 
 　　講完１-Ｄ之後，回過頭來講影像處理，在影像中作法其實相當類似，只是 blur kernel 是２-Ｄ的，如下面這個例子：
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/4.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/4.png">
 
 　　為了效果明顯，以下展示使用５＊５kernel 做出來的結果：
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/5.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/5.png">
 
 　　並附上 matlab source code。
 
@@ -82,7 +79,7 @@ imshow(result);
 
 　　其實這個 kernel 的概念可以繼續延伸，可以做到如簡單的 edge detection 運用類似二次微分通過零點的概念來實現，以下是使用 laplacian kernel 做出來的結果，可以看到可以稍微看出邊緣，如果圖不要太複雜，用此方法就能很完美的找到邊在哪。
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/6.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/6.png">
 
 ## 頻域：
 
@@ -92,11 +89,11 @@ imshow(result);
 
 　　以下展示正方形濾波跟高斯濾波的差別，正方形因為頻譜轉換之後會是 sinc function 所以會有波浪的樣子，而高斯濾波頻域跟值域都是一樣，所以效果相對好。
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/7.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/7.png">
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/8.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/8.png">
 
-　　<img src="{{ site.baseurl }}/image/2015-10-7/9.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-10-7/9.png">
 
 　　第一張為原圖，之後依序是正方形及高斯。
 

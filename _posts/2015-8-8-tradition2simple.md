@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "繁簡轉換實現 by Java"
-categories: [演算法]
+description: 透過 Java 實現繁簡轉換並講解其中 code。
 tags: [繁簡轉換, Android, Java, HashMap]
-image_description: false
-description: 透過 Java 實現繁簡轉換並講解其中 code
 comments: true
-published: true
 ---
 
 _因為本篇文章有許多 Code 建議使用電腦觀看_
@@ -143,7 +140,7 @@ private static String translate(String text,
 
 　　　　除了原本就在使用的 JnovelDownloader 之外，這個繁簡轉換 Library，也有 APP 版本的上架，如上面所說，轉換速度相當快，有興趣的話可以去抓來玩玩看。
 
-　　　　<img src="{{ site.baseurl }}/image/2015-8-8/S2TDroid.PNG">
+　　　　<img src="{{ site.baseurl }}/img/posts/2015-8-8/S2TDroid.PNG">
         
 　　　　[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=com.npes87184.s2tdroid)
 

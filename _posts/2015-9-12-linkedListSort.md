@@ -1,22 +1,19 @@
 ---
 layout: post
 title: "Linked List Sort"
-categories: [演算法]
-tags: [C++, Linked list, 演算法, 排序]
-image_description: false
 description: 講解常見的排序方法 (Bubble sort, Selection sort, Insertion sort 跟 Merge sort) 並附上 Linked List 實作版本。
+tags: [C++, Linked list, 演算法, 排序]
 comments: true
-published: true
 ---
 ## Bubble Sort：
 
 　　泡泡排序其實非常簡單，把每一個數字想像成一個泡泡，數字的大小就是泡泡的重量，越重的會沉在越下面，那如果每次我們都把最重的沉下去，做了一定次數之後就排序完成了，如下圖。
 
-　　<img src="{{ site.baseurl }}/image/2015-9-12/0.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-9-12/0.png">
 
 　　５是最重的泡泡，所以每一次跟周圍比都要往下沉，最後沈到最底下，下一次開始就是由３往下沉，值得注意的是，當遇到沉不下去的時候代表下面的泡泡比較重，所以就由下面的泡泡接替往下沉，如下圖框框中的情況。
 
-　　<img src="{{ site.baseurl }}/image/2015-9-12/1.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-9-12/1.png">
 
 　　這樣下去再做幾輪之後就完成了，掌握了泡泡排序的核心想法之後，以下展示一些運用 Linked List 實作的泡泡排序。
 
@@ -150,7 +147,7 @@ ListNode* bubbleSortList(ListNode* head) {
 
 　　一開始假設第一個數字是已經排序好的，之後第二個數字往前插，這樣就有兩個位子是排序好的，再來第三個數字再去找適當的地方放進去，以此類推即可完成排序，如下圖。
 
-　　<img src="{{ site.baseurl }}/image/2015-9-12/2.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-9-12/2.png">
 
 　　藍色是已經排序完成的地方，乍看之下很像插入排序很快，只要幾步就完成了。其實不然，因為在尋找要差在哪裡也是需要時間的，所以整體時間跟泡泡排序差不多快。
 
@@ -204,7 +201,7 @@ ListNode* insertionSortList(ListNode* head) {
 
 　　選擇排序的想法也很簡單，每次選擇最大或最小的元素排到正確的位子，不同於泡泡排序，他不會有一個往下沉或往上浮的情況，而是就是找最小或最大的拉過去，所以可以得到最小交換次數，對於要根據一個很大的表格的某一項排序是很好用的，原因是因為表格很大，造成交換的時間需要很久，選擇排序可以盡量減少交換次數。
 
-　　<img src="{{ site.baseurl }}/image/2015-9-12/3.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-9-12/3.png">
 
 　　其中藍色是本次最小，而綠色則是已經排序完成的地方，每次都選一個最小去跟適當的位子交換，只要做適當的次數就可以完成排序。
 
@@ -260,7 +257,7 @@ ListNode* selectionSortList(ListNode* head) {
 
 　　Merge Sort 的想法比較複雜一點，先看圖在講解應該會比較有感覺。
 
-　　<img src="{{ site.baseurl }}/image/2015-9-12/4.png">
+　　<img src="{{ site.baseurl }}/img/posts/2015-9-12/4.png">
 
 　　想像如果有兩個已經排序好的串列，要把他接成一個已經排序完成的應該不會太難。Merge Sort 的概念就是這樣，先把每一個元素當成一個已經排序好的，之後依序往上接，就能排序完成。
 

@@ -1,46 +1,44 @@
 ---
 layout: post
 title: "Ducky Secret RGB 滑鼠開箱"
-categories: [雜記]
+description: Ducky Secret RGB 滑鼠開箱。
 tags: [Ducky, 滑鼠]
-image_description: true
-description: <img src="/image/2015-11-21/0.jpg">
 comments: true
-published: true
+image: /img/posts/2015-11-21/0.jpg
 ---
 ## 開箱：
 
 　　之前買過兩把 Ducky 鍵盤，一開始買了 DK1008L 茶軸的，後來弟弟覺得好用搶去用，過了一段時間忍不住手癢，剛好周圍有人要送我禮物，就指名要 DK2108 紅軸，也是現在正在用的鍵盤。因為鍵盤的體驗非常好，在得知 Ducky 要出滑鼠的時候，就有點心動了，再加上上一隻滑鼠羅技 G400 偶爾會連點，而壓倒荷包的最後一根稻草是首購送價值 ＮＴ：５９０的滑鼠墊！衝著這個就入手了。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/1.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/1.jpg">
 
 　　剛把寄過來的箱子拆封之後的滑鼠跟鼠墊，透過旁邊的剪刀當比例尺可以看出那個滑鼠墊異常的大，基本上可以當桌墊用。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/2.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/2.jpg">
 
 　　滑鼠外盒，這隻是光學滑鼠，下面有註明 Gaming Mouse 不過現在很多都會打這個噱頭，所以看看就好。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/3.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/3.jpg">
 
 　　從袋子拿出來再拍一張外殼。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/4.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/4.jpg">
 
 　　最後是背面的一張，這隻滑鼠最好玩的地方是ＲＧＢ，他可以自選燈光的顏色，不是紅橙黃綠這樣幾種顏色，是真的可以調顏色，換句話說大家都用綠色可能都是不同的綠色，可以製造出個人化的感覺，當然也可以隨著時間緩緩的變化顏色。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/5.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/5.jpg">
 
 　　鼠墊的大小規格來一張，可以看出真的是可以當桌墊的滑鼠墊。ＸＤ
 
-<img src="{{ site.baseurl }}/image/2015-11-21/6.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/6.jpg">
 
-<img src="{{ site.baseurl }}/image/2015-11-21/7.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/7.jpg">
 
-<img src="{{ site.baseurl }}/image/2015-11-21/8.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/8.jpg">
 
 　　滑鼠本體，可以看出顏色是會變化的，最後一張順便換了一個鼠墊，之前的用很久已經在脫皮了。
 
-<img src="{{ site.baseurl }}/image/2015-11-21/9.jpg">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/9.jpg">
 
 　　最後跟我的 Ducky DK2108 紅軸的合照。
 
@@ -54,6 +52,6 @@ published: true
 
 　　目前加上鼠墊才ＮＴ：１５９０，個人是覺得挺划算的，畢竟有ＰＢＴ外殼，日製微動等。 
 
-<img src="{{ site.baseurl }}/image/2015-11-21/10.png">
+<img src="{{ site.baseurl }}/img/posts/2015-11-21/10.png">
 
 　　最後第四第五按鍵在 mac 中可以在這裡設定功用，還蠻好用的。：Ｄ

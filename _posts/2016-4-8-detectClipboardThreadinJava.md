@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Java 自動偵測剪貼簿"
-categories: [演算法]
-tags: [Java]
-image_description: false
 description: 運用 Java 實作一個 Thread 每隔一段時間自動偵測剪貼簿內容。
+tags: [Java]
 comments: true
-published: true
 ---
 
 ## Motivation：

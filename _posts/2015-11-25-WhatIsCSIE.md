@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "資工系在學什麼？"
-categories: [雜記]
-tags: [資工系, CSIE, 資工所]
-image_description: false
 description: 概括的說明資工系從零到有的過程，讓高中生可以在選系的時候參考。
+tags: [資工系, CSIE, 資工所]
 comments: true
-published: true
 ---
 感覺蠻多人不知道什麼是資工的，或是資工在做什麼的，我在這邊簡單說一下好了。
 讓想進去，或是對著裡面有幻想的孩子們有認知，對選科系或許會有幫助。

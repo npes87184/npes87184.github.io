@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "群暉及聯發科研替面試分享"
-categories: [雜記]
-tags: [研替, 面試心得, 群暉, MTK, 聯發科]
-image_description: false
 description: 分享面試群暉及聯發科時被問的問題及自己當時的解答等。
+tags: [研替, 面試心得, 群暉, MTK, 聯發科]
 comments: true
-published: true
 ---
 ## 群暉：
 
