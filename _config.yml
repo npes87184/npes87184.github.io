@@ -24,6 +24,7 @@ description: Write the code, change the world.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Archive: "archive"
   Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)
