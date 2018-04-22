@@ -25,27 +25,27 @@ comments: true
 
 　　之後開始照成績單問，像是有修過ＯＳ，就問了什麼是ＯＳ。
 
-**什麼是ＯＳ：**
+* **什麼是ＯＳ：**
 
-      確保 Process 可以正確執行，不會讓 Process 跟 Process 之間互相干擾，並透過 kernel mode 跟 user mode 保護硬體，並提供 high level 的 system call 讓使用者不能直接操作硬體，簡化操作，也更加有效率等。
+確保 Process 可以正確執行，不會讓 Process 跟 Process 之間互相干擾，並透過 kernel mode 跟 user mode 保護硬體，並提供 high level 的 system call 讓使用者不能直接操作硬體，簡化操作，也更加有效率等。
 
-　　同樣也有問 Process 跟 Thread 的差別，再次複習一下。ＸＤ
+同樣也有問 Process 跟 Thread 的差別，再次複習一下。ＸＤ
 
-**講解一下 Process 及 Thread 的差別跟比較：**
+* **講解一下 Process 及 Thread 的差別跟比較：**
 
-      Process 是 OS 分配 resource 的單位，相對的 Thread 是 OS 分配 CPU-time 的單位。Process 之間的溝通相對複雜，要嘛是跟 OS 要一塊 Shared Memory，不然就是透過 OS Message passing，而 Thread 之間的溝通相對簡單，只要透過 Global Variable 即可，雖然可能會有些問題（Race Condition）不過整體是比較簡單的，再者 Thread 的切換可能不用轉到 Kernel Mode（看 Thread 如何實作）又 Process 切換需要儲存許多資料到 PCB 而 Thread 相對少，所以 Thread 的 Context Switch 也比 Process 快。
+Process 是 OS 分配 resource 的單位，相對的 Thread 是 OS 分配 CPU-time 的單位。Process 之間的溝通相對複雜，要嘛是跟 OS 要一塊 Shared Memory，不然就是透過 OS Message passing，而 Thread 之間的溝通相對簡單，只要透過 Global Variable 即可，雖然可能會有些問題（Race Condition）不過整體是比較簡單的，再者 Thread 的切換可能不用轉到 Kernel Mode（看 Thread 如何實作）又 Process 切換需要儲存許多資料到 PCB 而 Thread 相對少，所以 Thread 的 Context Switch 也比 Process 快。
 
-**講解一下如何避免 Race Condition：**
+* **講解一下如何避免 Race Condition：**
 
-      ＯＳ本身有提供 Semaphore 跟 Monitor 只要使用得當就可以避免這樣的問題。
+ＯＳ本身有提供 Semaphore 跟 Monitor 只要使用得當就可以避免這樣的問題。
 
-　　之後看到有修過計算機組織就問了一題計算機組織的問題。
+之後看到有修過計算機組織就問了一題計算機組織的問題。
 
-**講解一下什麼是 Hazard：**
+* **講解一下什麼是 Hazard：**
 
-      分三種，Structural hazards, Data hazards, Control hazards。其中 Structural hazards 是先天限制，如記憶體一次就只能給一個人讀取。而 Data hazards 會發生在 lw 後面直接接 add 或是 branch 等，在資料就緒之前就要使用，就會出現 Data hazards。最後 Control hazards 會在執行到 branch 的時候出現，因為在執行完 branch 之前無法判斷要執行哪些指令，所以會有猜錯的可能性等。
+分三種，Structural hazards, Data hazards, Control hazards。其中 Structural hazards 是先天限制，如記憶體一次就只能給一個人讀取。而 Data hazards 會發生在 lw 後面直接接 add 或是 branch 等，在資料就緒之前就要使用，就會出現 Data hazards。最後 Control hazards 會在執行到 branch 的時候出現，因為在執行完 branch 之前無法判斷要執行哪些指令，所以會有猜錯的可能性等。
 
-　　之後照慣例有問了一些今天哪裡表現最差，本來以為還是會有很多需要改進的地方，沒想到主管說，沒有，今天你是表現最好的，很 Impressive！
+之後照慣例有問了一些今天哪裡表現最差，本來以為還是會有很多需要改進的地方，沒想到主管說，沒有，今天你是表現最好的，很 Impressive！
 
 ## 結語：
 
