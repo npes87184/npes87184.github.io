@@ -118,6 +118,9 @@ google_analytics: "UA-54265270-2"
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 #disqus: ""
 
+# Use Facebook Comments Plugin by assigning Facebook comment app id here.
+fb_comment_id: "159495411122881"
+
 # Facebook App ID
 fb_app_id: "159495411122881"
 
