@@ -2,7 +2,7 @@
 layout: post
 title: "繁簡轉換實現 by Java"
 description: 透過 Java 實現繁簡轉換並講解其中 code。
-tags: [繁簡轉換, Android, Java, HashMap]
+tags: [Android, Java, Algorithm, Code]
 comments: true
 ---
 

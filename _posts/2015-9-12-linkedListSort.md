@@ -2,7 +2,7 @@
 layout: post
 title: "Linked List Sort"
 description: 講解常見的排序方法 (Bubble sort, Selection sort, Insertion sort 跟 Merge sort) 並附上 Linked List 實作版本。
-tags: [C++, Linked list, 演算法, 排序]
+tags: [C++, Code, Algorithm]
 comments: true
 ---
 ## Bubble Sort：

@@ -2,7 +2,7 @@
 layout: post
 title: "Image Blur"
 description: 從兩個方向講解如何簡單地替一張影像模糊化並附上基本的 Matlab 實作。
-tags: [Matlab, Image, blur, 模糊]
+tags: [Matlab, Algorithm, Code]
 comments: true
 ---
 ## 前言：

@@ -2,7 +2,7 @@
 layout: post
 title: "fitbit charger 2 開箱"
 description: 智慧手環 fitbit charger 2 開箱。
-tags: [fitbit, 智慧手環]
+tags: [3C]
 comments: true
 ---
 

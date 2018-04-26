@@ -2,7 +2,7 @@
 layout: post
 title: "Google Play onReceivedSslError 安全性警示"
 description: 解決 Google Play onReceivedSslError 安全性警示。
-tags: [Android, onReceivedSslError]
+tags: [Android, Code, Java]
 comments: true
 ---
 

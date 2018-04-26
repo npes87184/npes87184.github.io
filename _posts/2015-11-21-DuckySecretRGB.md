@@ -2,7 +2,7 @@
 layout: post
 title: "Ducky Secret RGB 滑鼠開箱"
 description: Ducky Secret RGB 滑鼠開箱。
-tags: [Ducky, 滑鼠]
+tags: [3C]
 comments: true
 image: /img/posts/2015-11-21/0.jpg
 ---

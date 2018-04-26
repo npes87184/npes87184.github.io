@@ -2,7 +2,7 @@
 layout: post
 title: "Watermarking VS Data Hiding"
 description: 探討 Watermarking 及 Data Hiding 的特性，並討論其相同跟不同的地方。
-tags: [Watermarking, Data Hiding, Image Processing]
+tags: [Algorithm]
 comments: true
 ---
 ## 1. 前言：

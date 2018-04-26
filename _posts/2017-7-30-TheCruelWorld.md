@@ -2,7 +2,7 @@
 layout: post
 title: "百元分配問題"
 description: 如果世界上有一群人，他們每人一開始有 100 元，每天他們需要花費一元在生活上，並且每個人都可以隨機的從大家的花費中賺取錢，那當經過一定天數後，大家的財富分佈會是怎樣？
-tags: [js, 百元分配, 機率, 財富分佈]
+tags: [Javascript, Code]
 comments: true
 ---
 ## 問題：

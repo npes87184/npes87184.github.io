@@ -2,7 +2,7 @@
 layout: post
 title: "Chaos-Based Joint Compression and Encryption"
 description: 講解如何透過簡單的 Chaotic Map 來達到同時壓縮跟加密的效果並附上簡單的 Matlab 實作。
-tags: [Matlab, Encrypt, 演算法, 加密, 壓縮]
+tags: [Matlab, Algorithm, Code]
 comments: true
 ---
 ## 前言：

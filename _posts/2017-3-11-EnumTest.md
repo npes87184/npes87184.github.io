@@ -2,7 +2,7 @@
 layout: post
 title: "c++11 constexpr + static_assert 來做 enum 測試"
 description: c++11 constexpr + static_assert 來完成 enum 測試，當 enum 新增或修改時，如沒有處理使用地點，將會使其編譯錯誤。
-tags: [C++, c++11, constexpr, static_assert, enum test]
+tags: [C++, Code]
 comments: true
 ---
 ## 前言：

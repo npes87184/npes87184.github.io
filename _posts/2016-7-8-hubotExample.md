@@ -2,7 +2,7 @@
 layout: post
 title: "Hubot 聊天機器人簡單架設教學"
 description: 透過開源的 Hubot，簡單架設 Line 聊天機器人。
-tags: [Hubot, bot, chat, 聊天機器人, Line 聊天機器人]
+tags: [Javascript, Code]
 comments: true
 ---
 

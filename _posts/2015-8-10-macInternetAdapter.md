@@ -2,7 +2,7 @@
 layout: post
 title: "Macbook thunderbolt 網路轉接頭開箱"
 description: "Macbook thunderbolt 網路轉接頭開箱。"
-tags: [Macbook, thunderbolt]
+tags: [3C]
 image: /img/posts/2015-8-10/0.jpg
 comments: true
 ---

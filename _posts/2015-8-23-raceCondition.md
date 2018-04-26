@@ -2,7 +2,7 @@
 layout: post
 title: "Race Condition"
 description: 探討 Share Memory ，並討論其衍生的 Race Condition 問題及講解常見的三種演算法。
-tags: [作業系統, Race Condition, Share Memory, Critical Section]
+tags: [Operating system, Algorithm]
 comments: true
 ---
 ## 1. 由來：
