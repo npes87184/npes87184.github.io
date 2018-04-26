@@ -380,6 +380,10 @@ footer .theme-by {
   font-weight: 800;
 }
 
+.related-posts li {
+  font-size: 25px;
+}
+
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
     font-size: 36px;
