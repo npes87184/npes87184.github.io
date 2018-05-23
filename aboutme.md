@@ -39,7 +39,7 @@ Enjoy joining <strong>open source community</strong> to help others &mdash; chec
 * Contributed to <strong><a href="https://www.qemu.org/">qemu</a></strong> (popular emulator).
 * Contributed to <strong><a href="https://github.com/GravityBox/GravityBox">GravityBox</a></strong> (popular android xposed module).
 * Contributed to many other smaller open source projects ([JNovelDownloader](https://github.com/pupuliao/JNovelDownloader), [android-filepicker](https://github.com/Angads25/android-filepicker), [NovelDroid](https://github.com/sh1r0/NovelDroid), [cppjieba](https://github.com/yanyiwu/cppjieba), [android-opencc](https://github.com/qichuan/android-opencc), etc)
-* Personal project <strong>[S2TDroid](https://github.com/npes87184/S2TDroid)</strong> has more than 18,000 downloads and its score in google play is 4.6/5.
+* Personal project <strong>[S2TDroid](https://github.com/npes87184/S2TDroid)</strong> has more than 18,000 downloads and its score in google play is 4.7/5.
 
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
