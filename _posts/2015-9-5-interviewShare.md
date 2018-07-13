@@ -2,7 +2,7 @@
 layout: post
 title: "群暉及聯發科研替面試分享"
 description: 分享面試群暉及聯發科時被問的問題及自己當時的解答等。
-tags: [Interview]
+tags: [Programmer]
 comments: true
 ---
 ## 群暉：
