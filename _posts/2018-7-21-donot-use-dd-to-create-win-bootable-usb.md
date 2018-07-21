@@ -26,7 +26,7 @@ dd if=~/Downloads/linux-mint-19.iso of=/dev/usb1 bs=1M
 
 但是...
 
-當使用 `dd` 產生 Windows 10 的可開機 USB 後，在安裝時會卡在下圖：
+當使用 `dd` 產生 Windows 10 1803 的可開機 USB 後，在安裝時會卡在下圖：
 
 <img src="{{ site.baseurl }}/img/posts/2018-7-21/1.jpg">
 
