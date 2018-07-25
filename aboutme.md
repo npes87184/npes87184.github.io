@@ -40,7 +40,7 @@ Enjoy joining <strong>open source community</strong> to help others &mdash; chec
 * Contributed to <strong><a href="https://github.com/GravityBox/GravityBox">GravityBox</a></strong> (popular android xposed module).
 * Contributed to <strong><a href="https://github.com/topjohnwu/Magisk">Magisk</a></strong> (The most famous android modification tool to Alter Android System Systemless-ly).
 * Contributed to many other smaller open source projects ([JNovelDownloader](https://github.com/pupuliao/JNovelDownloader), [android-filepicker](https://github.com/Angads25/android-filepicker), [NovelDroid](https://github.com/sh1r0/NovelDroid), [cppjieba](https://github.com/yanyiwu/cppjieba), [android-opencc](https://github.com/qichuan/android-opencc), [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll), etc)
-* Personal project <strong>[S2TDroid](https://github.com/npes87184/S2TDroid)</strong> has more than 18,000 downloads and its score in google play is 4.7/5.
+* Personal project <strong>[S2TDroid](https://github.com/npes87184/S2TDroid)</strong> has more than 19,000 downloads and its score in google play is 4.7/5.
 * Personal project <strong>[PokeDict](https://github.com/npes87184/PokeResearchDictionary)</strong> gone to rank first in tool category of Google Play when it first released.
 
 <div id="contactme-section">
