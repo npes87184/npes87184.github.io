@@ -52,7 +52,7 @@ scrcpy provides display and control of Android devices connected on USB (or over
 </p>
 
 <p class="about-contribution-text">
-In scrcpy, I implemented some useful features, include drag&drop to transfer file, detect adb when executing, etc. I also fixed some potential resource leaks.
+In scrcpy, I implemented some useful features, including drag&drop to transfer file, detection adb when executing, etc. I also fixed some potential resource leaks.
 </p>
 
 * [input_manager: fix potential memory leak on text](https://github.com/Genymobile/scrcpy/commit/96056e3213b9f142cc39672186290b7495c1e0dd) <em style="color: green;">merged</em>
@@ -83,7 +83,7 @@ Magisk is a suite of open source tools for customizing Android.
 </p>
 
 <p class="about-contribution-text">
-I fixed some potential resource leak and memory overwrite in Magisk.
+I fixed some potential resource leaks and memory overwrite in Magisk.
 </p>
 
 * [utils/misc.c: prevent file staying opened when function leaving](https://github.com/topjohnwu/Magisk/commit/0ab6ffefb43c38aa036e7368454a89807bfef9f7) <em style="color: green;">merged</em>
