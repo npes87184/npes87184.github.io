@@ -1,8 +1,9 @@
-#aboutme-section {
+.about-subject {
   font-size: 19px;
 }
 
 .about-text {
+  font-size: 19px;
   position: relative;
   margin-left: 30px;
 }
@@ -14,8 +15,8 @@
   margin-top: 5px;
 }
 
-#aboutme-section p:last-child {
-  margin-bottom: 0;
+.about-contribution-text {
+  margin: 15px 0;
 }
 
 #contactme-section {
@@ -33,14 +34,4 @@
 
 #contact-form .form-control {
   margin-bottom: 15px;
-}
-
-#paypalbtn {
-  text-align: center;
-}
-
-#paypalbtn a {
-  text-decoration: none;
-  font-size: 1.2em;
-  font-family: arial;
 }
