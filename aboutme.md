@@ -6,7 +6,7 @@ css: "/css/aboutme.css"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-Hi, my name is Yu-Chen Lin. A software engineer who enjoyed the beauty of the code.
+Hi, I'm Yu-Chen Lin. A software engineer who enjoy the beauty of the code.
 
 # Community Contributions
 
@@ -22,7 +22,7 @@ QEMU is a generic and open source machine emulator and virtualizer.
 </p>
 
 <p class="about-contribution-text">
-I found QEMU will use an uninitialized variable which will cause core-dump in some special setting when use vhost-scsi-pci. In addition, I fixed bugs in vmdk to prevent creating bad vmdk. It affects all QEMU based hypervisor in the world to product a correct OVA for deploying virtual machine.
+I found QEMU would use an uninitialized variable which will cause core-dump in some special settings when using vhost-scsi-pci. In addition, I fixed bugs in vmdk to prevent creating bad vmdk. It affects all QEMU based hypervisor in the world to produce a correct OVA for deploying virtual machine.
 </p>
 * [vhost-scsi: prevent using uninitialized vqs](https://github.com/qemu/qemu/commit/e6cc11d64fc998c11a4dfcde8fda3fc33a74d844) <em style="color: green;">merged</em>
 * [vga_int: remove unused function protype](https://github.com/qemu/qemu/commit/e69a10f468d8f6aa6c00a4308f5a8e1f2fd6b3a1) <em style="color: green;">merged</em>
@@ -37,7 +37,7 @@ OVMF is an EDK II based project to enable UEFI support for Virtual Machines. OVM
 </p>
 
 <p class="about-contribution-text">
-I rewritten VMWare SVGA driver in OVMF, which will affect all the virtual machine using OVMF with -std vmsvga in QEMU in the world.
+I rewrote VMWare SVGA driver in OVMF, which will affect all virtual machines using OVMF with -std vmsvga in QEMU in the world.
 </p>
 * [OvmfPkg: simply use the Bochs interface for vmsvga](https://lists.01.org/pipermail/edk2-devel/2018-November/032100.html) <em style="color: orange;">reviewed</em>
 * [Revert "OvmfPkg: VMWare SVGA display device register definitions"](https://github.com/tianocore/edk2/commit/328409ce8de7f318ee9c929b64302bd361cd1dbd#diff-76767f2fe9e8f4acca7cbeb049bc8152) <em style="color: green;">merged</em>
@@ -92,7 +92,7 @@ I fixed some potential resource leak and memory overwrite in Magisk.
 ### And more...
 
 <p class="about-contribution-text">
-I also contributed to many smaller open source projects. For more detail, check my <a href="https://github.com/npes87184">GitHub</a>!
+I also contributed to many smaller open source projects! For more detail, check my <a href="https://github.com/npes87184">GitHub</a>.
 </p>
 
 * <a class="github-button" href="https://github.com/pupuliao/JNovelDownloader" data-show-count="true" aria-label="Star pupuliao/JNovelDownloader on GitHub">Star</a> [JNovelDownloader](https://github.com/pupuliao/JNovelDownloader)
@@ -117,19 +117,19 @@ An android app for transforming Simplified Chinese to Traditional Chinese.
 </p>
 
 * More than 20,000 downloads.
-* Score in google play is 4.6/5.
+* Score 4.6/5 in google play.
 
 ### PokeDict <a class="github-button" href="https://github.com/npes87184/PokeResearchDictionary" data-show-count="true" aria-label="Star npes87184/PokeResearchDictionary on GitHub">Star</a>
 
 * Gone to rank first in tool category of Google Play when it first released.
 * More than 9,900 downloads.
-* Score in google play is 4.6/5.
+* Score 4.6/5 in google play.
 
 <h1>Experiences</h1>
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Working as a Software Engineer on <strong><a href="https://www.synology.com/en-global">Synology</a></strong>. We are building reliable and flexible virtualization infrastructure solution. 2016 ~ Now
+Working as a Software Engineer in <strong><a href="https://www.synology.com/en-global">Synology</a></strong>. We are building reliable and flexible virtualization infrastructure solution. 2016 ~ Now
 </p>
 
 <p class="about-text">
@@ -139,7 +139,7 @@ In early 2016, I was an intern on <strong><a href="http://potentia.asia/">Potent
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-In 2015 summer, I was an intern on <strong><a href="https://www.itri.org.tw/">ITRI</a></strong>. In this time, we built a simple song recommender system. I’m responsible for measuring the distance between each songs in this project.
+In 2015 summer, I was an intern on <strong><a href="https://www.itri.org.tw/">ITRI</a></strong>. In this time, we built a simple song recommender system. I’m responsible for measuring the similarity between each song in this project.
 </p>
 
 <h1>Edutcation</h1>
