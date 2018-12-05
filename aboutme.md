@@ -6,7 +6,7 @@ css: "/css/aboutme.css"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-Hi, I'm Yu-Chen Lin. A software engineer who enjoy the beauty of the code.
+Hi, I'm Yu-Chen Lin. A software engineer experienced in building reliable and flexible virtualization infrastructure solution.
 
 # Community Contributions
 
@@ -39,11 +39,11 @@ OVMF is an EDK II based project to enable UEFI support for Virtual Machines. OVM
 <p class="about-contribution-text">
 I rewrote VMWare SVGA driver in OVMF, which will affect all virtual machines using OVMF with -std vmsvga in QEMU in the world.
 </p>
-* [OvmfPkg: simply use the Bochs interface for vmsvga](https://lists.01.org/pipermail/edk2-devel/2018-November/032100.html) <em style="color: orange;">reviewed</em>
-* [Revert "OvmfPkg: VMWare SVGA display device register definitions"](https://github.com/tianocore/edk2/commit/328409ce8de7f318ee9c929b64302bd361cd1dbd#diff-76767f2fe9e8f4acca7cbeb049bc8152) <em style="color: green;">merged</em>
-* [Revert "OvmfPkg/QemuVideoDxe: Helper functions for unaligned port I/O."](https://github.com/tianocore/edk2/commit/438ada5aa5a1174940795678c2dae07cde8f3869#diff-76767f2fe9e8f4acca7cbeb049bc8152) <em style="color: green;">merged</em>
-* [Revert "OvmfPkg/QemuVideoDxe: VMWare SVGA device support"](https://github.com/tianocore/edk2/commit/98856a724c2acdc0094220d4de615a557dad0f88#diff-76767f2fe9e8f4acca7cbeb049bc8152) <em style="color: green;">merged</em>
-* [Revert "OvmfPkg/QemuVideoDxe: list "UnalignedIoInternal.h" in the INF file"](https://github.com/tianocore/edk2/commit/e038bde2679bbd200086c25ab43090ad3b8b25a3#diff-76767f2fe9e8f4acca7cbeb049bc8152) <em style="color: green;">merged</em>
+* [OvmfPkg: simply use the Bochs interface for vmsvga](https://github.com/tianocore/edk2/commit/d021868ccf49e2a39664021909354ef1150b0a6d) <em style="color: green;">merged</em>
+* [Revert "OvmfPkg: VMWare SVGA display device register definitions"](https://github.com/tianocore/edk2/commit/330e18555cd246465e0229e1daa1a72287d3274d) <em style="color: green;">merged</em>
+* [Revert "OvmfPkg/QemuVideoDxe: Helper functions for unaligned port I/O."](https://github.com/tianocore/edk2/commit/9442266c701ac00d9bef0dc7ac6bc1b22b0c4d00) <em style="color: green;">merged</em>
+* [Revert "OvmfPkg/QemuVideoDxe: VMWare SVGA device support"](https://github.com/tianocore/edk2/commit/1358ecb77fea69108a8b1eb00f5b1ea709460fe1) <em style="color: green;">merged</em>
+* [Revert "OvmfPkg/QemuVideoDxe: list "UnalignedIoInternal.h" in the INF file"](https://github.com/tianocore/edk2/commit/29d8a4d4abb1785e51366b6fda68198c37927e36) <em style="color: green;">merged</em>
 
 ### scrcpy <a class="github-button" href="https://github.com/Genymobile/scrcpy" data-show-count="true" aria-label="Star Genymobile/scrcpy on GitHub">Star</a>
 
@@ -157,29 +157,4 @@ B.S. in Applied Mathematicals, <strong>National Chung Hsing University</strong>.
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
 
-<!--
-<div class="alert alert-danger" role="alert">
-I will be away until Feb 6, with very limited time to work. My responses will be slow during this period.
-</div>
--->
-
-
-
-<p>You can <a href="mailto:npes87184@gmail.com?subject=Hello from npes87184.github.io">email me</a> or find me <a href="https://www.facebook.com/npes87184">on Facebook</a> if you want to get in touch.
-<form action="https://formspree.io/npes87184@gmail.com" method="POST" class="form" id="contact-form">
-  <p>You can also send me a quick message using the form below:</p>
-  <div class="row">
-    <div class="col-xs-6">
-      <input type="email" name="_replyto" class="form-control input-lg" placeholder="Email" title="Email">
-    </div>
-    <div class="col-xs-6">
-      <input type="text" name="name" class="form-control input-lg" placeholder="Name" title="Name">
-    </div>
-  </div>
-  <input type="hidden" name="_subject" value="New submission from deanattali.com">
-  <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
-  <input type="text" name="_gotcha" style="display:none">
-  <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
-  
-  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
-</form>
+<p>You can <a href="mailto:npes87184@gmail.com?subject=Hello from npes87184.github.io">email me</a> or find me on <a href="https://www.linkedin.com/in/yu-chen-lin-2813b5101/">Linkedin.</a> if you want to get in touch.
