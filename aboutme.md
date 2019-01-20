@@ -29,6 +29,7 @@ I found QEMU would use an uninitialized variable which will cause core-dump in s
 * [vmdk: align end of file to a sector boundary](https://github.com/qemu/qemu/commit/51b3c6b73acae1e3fd3c7d441fc86dd17356695f) <em style="color: green;">merged</em>
 * [docs/usb2.txt: ehci has six ports](https://github.com/qemu/qemu/commit/95c94f8968325390d63b3c407584e91e6d7fb010) <em style="color: green;">merged</em>
 * [vmdk: return ERROR when cluster sector is larger than vmdk limitation](https://github.com/qemu/qemu/commit/a77672ea3d95094a0cb4f974de84fb7353c67cc0) <em style="color: green;">merged</em>
+* [and more](https://git.qemu.org/?p=qemu.git&a=search&h=HEAD&st=author&s=npes87184%7Cyuchenlin&sr=1)
 
 ### edk2/OvmfPkg <a class="github-button" href="https://github.com/tianocore/edk2" data-show-count="true" aria-label="Star tianocore/edk2 on GitHub">Star</a>
 
@@ -63,6 +64,7 @@ In scrcpy, I implemented some useful features, including drag&drop to transfer f
 * [installer -> file_handler](https://github.com/Genymobile/scrcpy/commit/aa97eed24b7571c1c30026528eceba15f382a862) <em style="color: green;">merged</em>
 * [Destroy mutex if strdup failed](https://github.com/Genymobile/scrcpy/commit/a3ab92226d96669e10b659bf559e50e64fe4a205) <em style="color: green;">merged</em>
 * [remove redundant semicolon](https://github.com/Genymobile/scrcpy/commit/f8ef4f1cf77584541a001c9e22f5add32f71ded4) <em style="color: green;">merged</em>
+* [and more](https://github.com/Genymobile/scrcpy/commits?author=npes87184)
 
 ### GravityBox <a class="github-button" href="https://github.com/GravityBox/GravityBox" data-show-count="true" aria-label="Star GravityBox/GravityBox on GitHub">Star</a>
 
