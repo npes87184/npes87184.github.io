@@ -38,7 +38,7 @@ OVMF is an EDK II based project to enable UEFI support for Virtual Machines. OVM
 </p>
 
 <p class="about-contribution-text">
-I rewrote VMWare SVGA driver in OVMF, which will affect all virtual machines using OVMF with -std vmsvga in QEMU in the world.
+I rewrote VMWare SVGA driver in OVMF, which will affect all virtual machines using OVMF with -device vmware-svga in QEMU in the world.
 </p>
 * [OvmfPkg: simply use the Bochs interface for vmsvga](https://github.com/tianocore/edk2/commit/d021868ccf49e2a39664021909354ef1150b0a6d) <em style="color: green;">merged</em>
 * [Revert "OvmfPkg: VMWare SVGA display device register definitions"](https://github.com/tianocore/edk2/commit/330e18555cd246465e0229e1daa1a72287d3274d) <em style="color: green;">merged</em>
