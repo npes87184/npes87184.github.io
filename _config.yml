@@ -73,7 +73,6 @@ social-network-links:
   facebook: npes87184
   github: npes87184
 #  reddit: yourname
-  google-plus: +林育辰
   linkedin: yu-chen-lin-2813b5101/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -90,7 +89,6 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
