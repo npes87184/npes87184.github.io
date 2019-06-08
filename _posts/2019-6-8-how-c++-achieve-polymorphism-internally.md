@@ -28,7 +28,6 @@ C++ 替每一個有 virtual function 的 class 產生一個隱藏 member `__vptr
 class Base
 {
 public:
-    FunctionPointer *__vptr;
     virtual void function1() {}
     virtual void function2() {}
     void function3() {}
