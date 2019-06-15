@@ -64,6 +64,9 @@ layout: base
 		  <a href="{{ site.baseurl }}">&larr; Previous Post</a>
 		</li>
         {% endif %}
+        <li class="hidden-xs">
+          <a href="https://www.paypal.me/npes87184"><span class="fa fa-heart" style="margin-right=5px;"></span> Sponsor</a>
+        </li>
         {% if page.next.url %}
 		<li class="next">
 		  <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
