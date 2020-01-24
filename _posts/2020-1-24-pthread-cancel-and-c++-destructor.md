@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "phtread_cancel 與 C++ 解構子的坑"
+title: "pthread_cancel 與 C++ 解構子的坑"
 description: 簡單描述之前工作上遇到的 phtread_cancel 與 C++ 解構子的坑。
 tags: [Code, C++]
 comments: true
