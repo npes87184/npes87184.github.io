@@ -793,3 +793,9 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+pre {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
