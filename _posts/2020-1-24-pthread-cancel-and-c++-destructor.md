@@ -64,8 +64,13 @@ int main()
 }
 ```
 
-btw，因為這篇 blog 是使用 termux 配上 samsung dex 寫的，不巧的是 Android NDK 並沒有 `pthread_cancel`，所以是沒有跑過的，但我想在正常的 x86_64 機器上應是可以輕鬆重製此問題。
-之後有時間，我也會跑一下此例子。
+並且使用以下 command 編譯
+
+```shell
+g++ --std=c++17 -pthread -o pthread_test pthread_test.cp
+```
+
+之後執行 `pthread_test` 就會發生以上的 core dump。
 
 ### Reference
 
