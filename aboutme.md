@@ -6,7 +6,7 @@ css: "/css/aboutme.css"
 ---
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-Hi, I'm Yu-Chen Lin. A software engineer experienced in building reliable and flexible virtualization infrastructure solutions.
+Hi, I'm <strong>Yu-Chen Lin</strong>. A software engineer experienced in building reliable and flexible virtualization infrastructure solutions.
 
 # Community Contributions
 
@@ -75,12 +75,10 @@ I also contributed to many other open source projects! For more detail, check my
 
 * <a class="github-button" href="https://github.com/topjohnwu/magisk" data-show-count="true" aria-label="Star topjohnwu/magisk on GitHub">Star</a> [Magisk](https://github.com/topjohnwu/magisk)
 * <a class="github-button" href="https://github.com/GravityBox/GravityBox" data-show-count="true" aria-label="Star GravityBox/GravityBox on GitHub">Star</a> [GravityBox](https://github.com/GravityBox/GravityBox)
-* <a class="github-button" href="https://github.com/pupuliao/JNovelDownloader" data-show-count="true" aria-label="Star pupuliao/JNovelDownloader on GitHub">Star</a> [JNovelDownloader](https://github.com/pupuliao/JNovelDownloader)
-* <a class="github-button" href="https://github.com/Angads25/android-filepicker" data-show-count="true" aria-label="Star Angads25/android-filepicker on GitHub">Star</a>[android-filepicker](https://github.com/Angads25/android-filepicker)
-* <a class="github-button" href="https://github.com/sh1r0/NovelDroid" data-show-count="true" aria-label="Star sh1r0/NovelDroid on GitHub">Star</a>[NovelDroid](https://github.com/sh1r0/NovelDroid)
-* <a class="github-button" href="https://github.com/yanyiwu/cppjieba" data-show-count="true" aria-label="Star yanyiwu/cppjieba on GitHub">Star</a>[cppjieba](https://github.com/yanyiwu/cppjieba)
-* <a class="github-button" href="https://github.com/qichuan/android-opencc" data-show-count="true" aria-label="Star qichuan/android-opencc on GitHub">Star</a>[android-opencc](https://github.com/qichuan/android-opencc)
-* <a class="github-button" href="https://github.com/daattali/beautiful-jekyll" data-show-count="true" aria-label="Star daattali/beautiful-jekyll on GitHub">Star</a>[beautiful-jekyll](https://github.com/daattali/beautiful-jekyll)
+* <a class="github-button" href="https://github.com/dddomodossola/remi" data-show-count="true" aria-label="Star dddomodossola/remi on GitHub">Star</a> [remi](https://github.com/dddomodossola/remi)
+* <a class="github-button" href="https://github.com/Angads25/android-filepicker" data-show-count="true" aria-label="Star Angads25/android-filepicker on GitHub">Star</a> [android-filepicker](https://github.com/Angads25/android-filepicker)
+* <a class="github-button" href="https://github.com/yanyiwu/cppjieba" data-show-count="true" aria-label="Star yanyiwu/cppjieba on GitHub">Star</a> [cppjieba](https://github.com/yanyiwu/cppjieba)
+* <a class="github-button" href="https://github.com/daattali/beautiful-jekyll" data-show-count="true" aria-label="Star daattali/beautiful-jekyll on GitHub">Star</a> [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll)
 * etc
 
 <h1>Projects</h1>
