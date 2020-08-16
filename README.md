@@ -33,4 +33,20 @@ And you can stop the server with:
 docker stop beautiful-jekyll
 ```
 
+### Establish environment by docker-compose:
+
+1. Make sure [Docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/install/) installed.
+
+2. Clone repository locally.
+
+    ```bash
+    git clone https://github.com/npes87184/npes87184.github.io.git
+    ```
+
+3. Run the following command
+
+	```bash
+	docker-compose up --build
+	```
+
 Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
