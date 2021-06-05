@@ -25,7 +25,7 @@ description: Write the code, change the world.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me: "https://github.com/npes87184/Awesome-CV/raw/master/examples/resume.pdf"
   Archive: "archive"
   Tags: "tags"
 
