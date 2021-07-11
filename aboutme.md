@@ -134,7 +134,7 @@ Take a screenshot and share it quickly from Android quick setting tile.
 * Score 4.6/5 in google play.
 * Has a web interface for showing pokemon mission as well as reporting new mission by user.
 
-<h1>Edutcation</h1>
+<h1>Education</h1>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
